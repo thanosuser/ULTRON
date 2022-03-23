@@ -282,7 +282,7 @@ def info(update: Update, context: CallbackContext):
                     text += _stext.format("Detected")
                 elif status in {"administrator", "creator"}:
                     text += _stext.format("Admin")
-    if user_id not in [bot.id, , 5236415929]:
+    if user_id not in [bot.id, 1669178360, 1087968824]:
         userhp = hpmanager(user)
         text += f"\n\n<b>Health:</b> <code>{userhp['earnedhp']}/{userhp['totalhp']}</code>\n[<i>{make_bar(int(userhp['percentage']))} </i>{userhp['percentage']}%]"
 
@@ -316,7 +316,7 @@ def info(update: Update, context: CallbackContext):
         text += "\n\nThe Disaster level of this person is 'Soldier'."
         disaster_level_present = True
     elif user.id == 1866203936:
-         text += "\n\nOwner Of A Bot. Queen Of @ULTRON_OWNER. Bot Name Inspired From 'Lydia'."
+         text += "\n\nOwner Of A Bot. Queen Of @Timesisnotwaiting. Bot Name Inspired From 'Lydia'."
          disaster_level_present = True
 
     try:
@@ -422,14 +422,14 @@ def set_about_me(update: Update, context: CallbackContext):
     if message.reply_to_message:
         repl_message = message.reply_to_message
         repl_user_id = repl_message.from_user.id
-        if repl_user_id in [bot.id, 5110793115, 1087968824] and (user_id in DEV_USERS):
+        if repl_user_id in [bot.id, 1669178360, 1087968824] and (user_id in DEV_USERS):
             user_id = repl_user_id
     text = message.text
     info = text.split(None, 1)
     if len(info) == 2:
         if len(info[1]) < MAX_MESSAGE_LENGTH // 4:
             sql.set_user_me_info(user_id, info[1])
-            if user_id in [5110793115, 1087968824]:
+            if user_id in [1669178360, 1087968824]:
                 message.reply_text("Authorized...Information updated!")
             elif user_id == bot.id:
                 message.reply_text("I have updated my info with the one you provided!")
@@ -447,7 +447,7 @@ def set_about_me(update: Update, context: CallbackContext):
 def stats(update: Update, context: CallbackContext):
     stats = "<b>╔═━「 Current Statistics 」</b>\n" + "\n".join([mod.__stats__() for mod in STATS])
     result = re.sub(r"(\d+)", r"<code>\1</code>", stats)
-    result += "\n<b>╘═━「 Powered By [ULTRONbots](https://t.me/thanosbot_chats)」</b>"
+    result += "\n<b>╘═━「 Powered By [Lucybots](https://t.me/thanosbot_chats)」</b>"
     update.effective_message.reply_text(
         result,
         parse_mode=ParseMode.HTML, 

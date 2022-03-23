@@ -9,7 +9,7 @@ from ULTRON.events import register
 from ULTRON import telethn as tbot
 
 
-RISHABH = "kissme"
+RISHABH = "https://telegra.ph/file/d7eff56f48fcaf2cea0f7.jpg"
 
 @register(pattern=("/ULTRON"))
 async def awake(event):

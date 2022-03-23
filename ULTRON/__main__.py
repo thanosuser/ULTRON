@@ -84,7 +84,7 @@ PM_START_TEXT = """
 *Hello {} !*
 💞 Hello I am ULTRON ROBOT advanced telegram Group management Bot with lots of cool features.
 
-Bot to help you to Manage & Protect Your Groups.[ㅤ](kissme)\nSo What are you Waiting For?\n Add ULTRON TO YOUR CHAT.
+Bot to help you to Manage & Protect Your Groups.[ㅤ](https://telegra.ph/file/d7eff56f48fcaf2cea0f7.jpg)\nSo What are you Waiting For?\n Add ULTRON TO YOUR CHAT.
 
 """
 
@@ -110,7 +110,7 @@ buttons = [
 HELP_STRINGS = """
 Click on the button bellow to get description about specifics command."""
 
-EMI_IMG = "kissme"
+EMI_IMG = "https://telegra.ph/file/d7eff56f48fcaf2cea0f7.jpg"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
  You can support the project by contacting  \

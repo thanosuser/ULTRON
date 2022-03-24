@@ -91,18 +91,19 @@ Bot to help you to Manage & Protect Your Groups.[ㅤ](https://telegra.ph/file/d7
 buttons = [
     [
         InlineKeyboardButton(
-            text="ADD ME🔥", url="t.me/ULTRON_MANAGER_bot?startgroup=true"),
+            text="ADD ME", url="t.me/ULTRON_MANAGER_bot?startgroup=true"),
     ],
      [
-        InlineKeyboardButton(text="ʙᴀꜱɪᴄ ɢᴜɪᴅᴇ ", callback_data="emiko_"),
+        InlineKeyboardButton(text="HOW TO USE ", callback_data="emiko_"),
      ], 
      [  
-        InlineKeyboardButton(text="ꜱᴜᴘᴘᴏʀᴛ ⚒️", url="https://t.me/ULTRON_BOTS"),
-        InlineKeyboardButton(text="ᴜᴘᴅᴀᴛᴇꜱ 📢", url="https://t.me/ULTRON_BOTS"),
+        InlineKeyboardButton(text="SUPPORT", url="https://t.me/ULTRON_BOTS"),
+        InlineKeyboardButton(text="CHANNEL", url="https://t.me/THANOS_PRO"),
     ], 
 
     [
-        InlineKeyboardButton(text="ʜᴇʟᴘ", callback_data="help_back"),
+        InlineKeyboardButton(text="HELP", callback_data="help_back"),
+        InlineKeyboardButton(text="REPO", url="https://t.me/ULTRON_BOTS"),
     ],
 ]
 

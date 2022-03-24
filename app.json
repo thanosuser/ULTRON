@@ -42,7 +42,8 @@
          "description": "Get API_HASH from my.telegram.org, used for telethon based modules.",
          "required": true,
          "value": ""
-      },    
+      },
+         
       "SQLALCHEMY_DATABASE_URI": {
          "description": "Put Your elephant postgres sql db.",
          "required": false,
@@ -53,7 +54,11 @@
          "required": true,
          "value": "1715491834"
      },
-
+      "BOT_NAME":{
+         "description": "Fill your bot name",
+         "required": true,
+         "value": ""
+      },  
       "ULTRON_SESSION": {
          "description": "Fill with telethon string session.",
          "required": true,

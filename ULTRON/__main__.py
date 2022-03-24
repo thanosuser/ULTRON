@@ -82,7 +82,7 @@ def get_readable_time(seconds: int) -> str:
 
 PM_START_TEXT = """
 *Hello {} !*
-💞 Hello I am ULTRON ROBOT advanced telegram Group management Bot with lots of cool features.
+💞 Hello I am {BOT_NAME} ROBOT advanced telegram Group management Bot with lots of cool features.
 
 Bot to help you to Manage & Protect Your Groups.[ㅤ](https://telegra.ph/file/d7eff56f48fcaf2cea0f7.jpg)\nSo What are you Waiting For?\n Add ULTRON TO YOUR CHAT.
 

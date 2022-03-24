@@ -31,6 +31,7 @@ class Config(object):
     ARQ_API = "UIUXOY-NTKWDC-QHFFMD-DHHKVV-ARQ"
     ARQ_API_URL = "aww"
     HEROKU_APP_NAME = ""
+    BOT_NAME = ""
     HEROKU_API_KEY = ""
     BOT_ID = "1901951380"
     ULTRON_SESSION = ""

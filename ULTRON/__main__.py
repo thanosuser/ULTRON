@@ -91,7 +91,7 @@ Bot to help you to Manage & Protect Your Groups.[ㅤ](https://telegra.ph/file/d7
 buttons = [
     [
         InlineKeyboardButton(
-            text="ADD ME🔥", url="t.me/{BOT_USERNAME}?startgroup=true"),
+            text="ADD ME🔥", url="t.me/ULTRON_MANAGER_bot?startgroup=true"),
     ],
      [
         InlineKeyboardButton(text="ʙᴀꜱɪᴄ ɢᴜɪᴅᴇ ", callback_data="emiko_"),
@@ -382,7 +382,7 @@ def emiko_about_callback(update, context):
                     InlineKeyboardButton(text="Developers 🎁", callback_data="emiko_credit"),
                  ],
                  [
-                    InlineKeyboardButton(text="Donate 💝", url=f"t.me/KASHYAP_IS_PRO"),
+                    InlineKeyboardButton(text="Donate 💝", url=f"t.me/ULTRON_OWNER"),
                  ],
                  [
                     InlineKeyboardButton(text="Go Back", callback_data="emiko_back"),
@@ -430,8 +430,8 @@ def emiko_about_callback(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="Support", url="t.me/thanosbot_chats"),
-                    InlineKeyboardButton(text="Updates", url="https://t.me/thanosbot_chats"),
+                    InlineKeyboardButton(text="Support", url="t.me/ULTRON_BOTS"),
+                    InlineKeyboardButton(text="Updates", url="https://t.me/THANOS_PRO"),
                  ],
                  [
                     InlineKeyboardButton(text="Go Back", callback_data="emiko_"),
@@ -450,8 +450,8 @@ def emiko_about_callback(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="RISHABH", url="t.me/Mafiarishabh"),
-                    InlineKeyboardButton(text="KASHYAP", url="t.me/KASHYAP_IS_PRO"),
+                    InlineKeyboardButton(text="RISHABH", url="t.me/ULTRON_OWNER"),
+                    InlineKeyboardButton(text="ULTRON", url="t.me/ULTRON_OWNER"),
                  ],
                  [
                     InlineKeyboardButton(text="Go Back", callback_data="emiko_"),
